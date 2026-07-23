@@ -17,7 +17,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Dishon | Full-Stack Developer",
   description:
-    "React Native & Full-Stack Developer — Expo, Supabase, Node.js, FastAPI",
+    "React Native & Full-Stack Developer — Expo, Supabase, Node.js, Express.js, FastAPI",
 };
 
 // This component wraps EVERY page in your site
@@ -29,10 +29,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={cn("dark", "font-sans", geist.variable)}>
       <body className={`${inter.className} bg-background text-foreground`}>
-        <AnimatedBackground/>
+        <AnimatedBackground />
         <CursorGlow />
-        <ClickSpark/>
-        <Navbar/>
+        <ClickSpark />
+        <Navbar />
         {children}
       </body>
     </html>

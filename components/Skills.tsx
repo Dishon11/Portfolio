@@ -20,7 +20,7 @@ const groups = [
   {
     title: "Database",
     icon: Database,
-    items: ["Supabase", "PostgreSQL"],
+    items: ["Supabase", "PostgreSQL","MySQL"],
     span: "",
   },
   {
@@ -32,7 +32,7 @@ const groups = [
   {
     title: "Tools",
     icon: Wrench,
-    items: ["VS Code", "Git", "Zustand", "TanStack Query"],
+    items: ["VS Code", "Git", "Zustand", "TanStack Query","Postman"],
     span: "",
   },
 ];

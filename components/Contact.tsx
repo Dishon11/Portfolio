@@ -62,13 +62,13 @@ export default function Contact() {
     { icon: Mail, label: "dishon110205@email.com", href: "mailto:dishon110205@email.com" },
     {
       icon: GithubIcon,
-      label: "github.com/yourusername",
-      href: "https://github.com/yourusername",
+      label: "github.com/Dishon11",
+      href: "https://github.com/Dishon11",
     },
     {
       icon: LinkedinIcon,
-      label: "linkedin.com/in/yourusername",
-      href: "https://linkedin.com/in/yourusername",
+      label: "linkedin.com/in/dishon-siddapur",
+      href: "https://www.linkedin.com/in/dishon-siddapur-01374b282",
     },
   ];
 

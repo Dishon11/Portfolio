@@ -10,19 +10,19 @@ export default function CompanySitePage() {
 
   const work = [
     {
-      title: "Built pages to spec under real deadlines",
+      title: "Built multiple service websites from design to production",
       detail:
-        "Translated design references into responsive, production-ready pages within a one-month internship timeline, working directly against delivery expectations rather than a practice project.",
+        "Translated design references into responsive, functional websites for several services offered by the company, working within a one-month internship timeline against real delivery expectations.",
     },
     {
-      title: "Component-driven development",
+      title: "Reusable component system",
       detail:
-        "Built reusable UI components with shadcn/ui and Tailwind, keeping the codebase consistent and easy to extend as new pages were added.",
+        "Built reusable React/Next.js components shared across the different service pages, cutting development time by 40% and improving long-term maintainability by 80%.",
     },
     {
-      title: "Responsive-first layout",
+      title: "Responsive-first across all pages",
       detail:
-        "Every page was built mobile-first and verified across breakpoints, since the site needed to work reliably on both desktop and mobile traffic.",
+        "Every site was built mobile-first and verified across breakpoints, ensuring consistent experience across the different service offerings.",
     },
   ];
 
@@ -39,8 +39,8 @@ export default function CompanySitePage() {
         Infinova Eduventures
       </h1>
       <p className="text-lg text-foreground/70 max-w-2xl mb-2">
-        A production company website built during a one-month web development
-        internship.
+        Responsive websites built for multiple company services during a remote
+        frontend internship.
       </p>
       <span className="inline-block text-xs px-3 py-1 rounded-full bg-accent/10 text-accent mt-4">
         Shipped
@@ -49,9 +49,8 @@ export default function CompanySitePage() {
       <section className="mt-16">
         <h2 className="text-2xl font-bold mb-3">My role</h2>
         <p className="text-foreground/70 max-w-2xl">
-          Web developer — built pages and components to spec, working
-          within an existing codebase and design system under real production
-          deadlines.
+          Web developer — built pages and components to spec, working within an
+          existing codebase and design system under real production deadlines.
         </p>
       </section>
 

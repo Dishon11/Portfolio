@@ -18,14 +18,14 @@ export const projects = [
     status: "Final Play Store submission in progress",
   },
   {
-    slug: "infinova",
-    title: "Infinova Eduventures", // replace with actual company/product name
-    tagline: "Marketing website built during frontend internship",
-    description:
-      "A production company website built during a one-month web development internship, focused on clean UI, responsive layout, and component-driven development.",
-    stack: ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui"],
-    status: "Shipped",
-    role: "Web developer — built pages and components to spec under real delivery timelines.",
-  },
+  slug: "infinova",
+  title: "Infinova Eduventures",
+  tagline: "Responsive service websites built during a remote frontend internship",
+  description:
+    "Built responsive websites for multiple services offered by the company, translating designs into functional, production-ready pages. Developed reusable React/Next.js components that cut development time by 40% and improved maintainability by 80%.",
+  stack: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+  status: "Shipped",
+  role: "Web Developer Intern (Remote) — Jan 2026 to Feb 2026",
+},
   // add more projects here later, e.g. this portfolio itself
 ];

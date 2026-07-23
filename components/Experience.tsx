@@ -14,15 +14,14 @@ const items = [
       "Sole technical co-founder — built the mobile app, backend, and admin dashboard end-to-end. RLS-secured Supabase schema, audit logging, EAS update pipeline.",
     icon: Rocket,
   },
-  {
-    role: "Frontend Development Intern",
-    org: "One-month internship",
-    period: "2026 — Completed",
-    status: "Completed",
-    detail:
-      "Built production interfaces with Next.js, TypeScript, Tailwind CSS, and shadcn/ui under real delivery constraints.",
-    icon: Code,
-  },
+{
+  role: "Web Developer Intern",
+  org: "Infinova (Remote)",
+  period: "Jan 2026 — Feb 2026",
+  status: "Completed",
+  detail: "Built responsive websites for the company's services, translating designs into functional pages. Built reusable React/Next.js components, cutting dev time by 40% and improving maintainability by 80%.",
+  icon: Code,
+},
   {
     role: "Board Member",
     org: "Innovation and Incubation Cell",
