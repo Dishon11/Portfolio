@@ -111,7 +111,7 @@ export default function FeaturedProject() {
                   </p>
 
                   <div className="flex flex-wrap gap-1.5">
-                    {project.stack.slice(0, 3).map((t) => (
+                    {project.stack.map((t) => (
                       <span
                         key={t}
                         className="text-xs px-2 py-0.5 rounded-full bg-foreground/5 text-foreground/50"
