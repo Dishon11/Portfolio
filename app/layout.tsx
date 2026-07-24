@@ -6,6 +6,7 @@ import CursorGlow from "@/components/CursorGlow";
 import { cn } from "@/lib/utils";
 import ClickSpark from "@/components/ClickSpark";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer"; 
 import AnimatedBackground from "@/components/AnimatedBackground";
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-sans" });
@@ -34,6 +35,7 @@ export default function RootLayout({
         <ClickSpark />
         <Navbar />
         {children}
+        <Footer/>
       </body>
     </html>
   );

@@ -59,7 +59,7 @@ export default function Contact() {
   };
 
   const links = [
-    { icon: Mail, label: "dishon110205@email.com", href: "mailto:dishon110205@email.com" },
+    { icon: Mail, label: "dishon110205@gmail.com", href: "mailto:dishon110205@gmail.com" },
     {
       icon: GithubIcon,
       label: "github.com/Dishon11",
