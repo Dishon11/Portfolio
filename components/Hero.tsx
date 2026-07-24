@@ -7,7 +7,6 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className="relative min-h-[85vh] md:min-h-screen flex flex-col-reverse md:flex-row items-center justify-center md:justify-between gap-10 px-6 md:px-20 py-20 pt-28 md:pt-20 text-center md:text-left">
-      
       {/* Left side — text */}
       <div className="flex-1 flex flex-col items-center md:items-start">
         <motion.p
@@ -35,7 +34,7 @@ export default function Hero() {
           className="text-base md:text-lg text-foreground/70 mt-6 max-w-md"
         >
           Building MyCoreRise — a wellness app with React Native, Supabase, and
-          FastAPI.
+          RestAPI.
         </motion.p>
 
         <div className="flex flex-wrap gap-4 mt-8 justify-center md:justify-start">
