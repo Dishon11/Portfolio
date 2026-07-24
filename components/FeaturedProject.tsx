@@ -107,6 +107,17 @@ export default function FeaturedProject() {
                   <p className="text-sm text-foreground/60 mb-5 leading-relaxed">
                     {project.tagline}
                   </p>
+                  {project.liveUrl && (
+                    <a
+                      href={project.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs text-accent hover:underline"
+                    >
+                      Visit live site →
+                    </a>
+                  )}
+
                   <div className="flex flex-wrap gap-1.5">
                     {project.stack.slice(0, 3).map((t) => (
                       <span

@@ -8,10 +8,10 @@ export default function Footer() {
 
   return (
     <footer className="border-t border-foreground/10 px-6 md:px-20 py-8">
-      <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-foreground/50">
-        <p>© {year} Dishon Siddapur. All rights reserved.</p>
+      <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-sm text-foreground/50">
+        <p>© {year} Dishon John Siddapur. All rights reserved.</p>
 
-        <div className="flex items-center gap-6">
+        {/* <div className="flex items-center gap-6">
           <Link href="/" className="hover:text-accent transition-colors">
             Home
           </Link>
@@ -24,11 +24,11 @@ export default function Footer() {
           <a href="#contact" className="hover:text-accent transition-colors">
             Contact
           </a>
-        </div>
+        </div> */}
 
-        <p className="text-xs text-foreground/30">
+        {/* <p className="text-xs text-foreground/30">
           Built with Next.js, FastAPI & Docker
-        </p>
+        </p> */}
       </div>
     </footer>
   );

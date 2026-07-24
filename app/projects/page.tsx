@@ -54,6 +54,16 @@ export default function ProjectsPage() {
               <p className="text-foreground/60 mb-6 text-sm leading-relaxed">
                 {project.tagline}
               </p>
+              {project.liveUrl && (
+                <a
+                  href={project.liveUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-accent hover:underline"
+                >
+                  Visit live site →
+                </a>
+              )}
 
               <div className="flex flex-wrap gap-2">
                 {project.stack.map((tech) => (
