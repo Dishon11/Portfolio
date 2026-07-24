@@ -92,7 +92,9 @@ export default function FeaturedProject() {
                 transition={{ duration: 0.5, delay: 0.1 + i * 0.08 }}
               >
                 <Link
-                  href={`/projects/${project.slug}`}
+                  href={project.liveUrl || `/projects/${project.slug}`}
+                  target={project.liveUrl ? "_blank" : undefined}
+                  rel={project.liveUrl ? "noopener noreferrer" : undefined}
                   className="group block h-full border border-foreground/10 rounded-2xl p-6 md:p-8 hover:border-accent/40 hover:bg-foreground/[0.03] transition-all"
                 >
                   <div className="flex items-start justify-between mb-4">
@@ -107,16 +109,6 @@ export default function FeaturedProject() {
                   <p className="text-sm text-foreground/60 mb-5 leading-relaxed">
                     {project.tagline}
                   </p>
-                  {project.liveUrl && (
-                    <a
-                      href={project.liveUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-xs text-accent hover:underline"
-                    >
-                      Visit live site →
-                    </a>
-                  )}
 
                   <div className="flex flex-wrap gap-1.5">
                     {project.stack.slice(0, 3).map((t) => (

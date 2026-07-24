@@ -38,7 +38,7 @@ export const projects = [
     stack: ["React", "PostgreSQL", "Express", "Node.js", "Brevo"],
     status: "Live",
     role: "Designed and built the site end-to-end, including backend email integration via Brevo.",
-    liveUrl: "https://www.mycorerise.com",
+    liveUrl: "https://www.mycorerise.com/",
   },
   // add more projects here later, e.g. this portfolio itself
 ];
