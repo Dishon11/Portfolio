@@ -2,37 +2,64 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code2, Server, Database, Container, Wrench } from "lucide-react";
+import {
+  Code2,
+  Server,
+  Database,
+  Container,
+  Wrench,
+  Sparkles,
+} from "lucide-react";
 
 const groups = [
   {
     title: "Frontend",
     icon: Code2,
-    items: ["Next.js", "React Native", "TypeScript", "Tailwind CSS", "Shadcn"],
+    items: [
+      "Next.js",
+      "React Native",
+      "Expo",
+      "TypeScript",
+      "Tailwind CSS",
+      "Shadcn",
+    ],
     span: "md:col-span-2 md:row-span-2",
+  },
+  {
+    title: "AI",
+    icon: Sparkles,
+    items: ["Gemini API", "pgvector", "RAG", "Embeddings"],
+    span: "",
   },
   {
     title: "Backend",
     icon: Server,
-    items: ["Express", "FastAPI", "Node.js"],
+    items: ["Express", "FastAPI", "Node.js", "Python"],
     span: "",
   },
   {
     title: "Database",
     icon: Database,
-    items: ["Supabase", "PostgreSQL","MySQL"],
+    items: ["Supabase", "PostgreSQL", "MySQL"],
     span: "",
   },
   {
     title: "DevOps",
     icon: Container,
-    items: ["Docker", "GitHub Actions", "Vercel", "Render"],
+    items: [
+      "Docker",
+      "GitHub Actions",
+      "Vercel",
+      "Render",
+      "Firebase",
+      "Sentry",
+    ],
     span: "md:col-span-2",
   },
   {
     title: "Tools",
     icon: Wrench,
-    items: ["VS Code", "Git", "Zustand", "TanStack Query","Postman"],
+    items: ["VS Code", "Git", "Zustand", "TanStack Query", "Zod", "Postman"],
     span: "",
   },
 ];
@@ -75,26 +102,26 @@ export default function Skills() {
                 className="w-7 h-7 text-accent relative z-10 opacity-100"
                 strokeWidth={2}
               />
-         
-              
+
               <div className="relative z-10">
                 <p className="font-medium text-lg mb-3">{group.title}</p>
                 {group.title === "Frontend" && (
-                <div className="relative z-10 mt-5 mb-5 font-mono text-xs text-foreground/50 bg-foreground/5 rounded-lg p-4 border border-foreground/10">
-                  <span className="text-accent">const</span> stack = {"{"}
-                  <br />
-                  &nbsp;&nbsp;ui:{" "}
-                  <span className="text-green-400">&quot;React&quot;</span>,
-                  <br />
-                  &nbsp;&nbsp;style:{" "}
-                  <span className="text-green-400">&quot;Tailwind&quot;</span>,
-                  <br />
-                  &nbsp;&nbsp;native:{" "}
-                  <span className="text-green-400">true</span>
-                  <br />
-                  {"}"};
-                </div>
-              )}
+                  <div className="relative z-10 mt-5 mb-5 font-mono text-xs text-foreground/50 bg-foreground/5 rounded-lg p-4 border border-foreground/10">
+                    <span className="text-accent">const</span> stack = {"{"}
+                    <br />
+                    &nbsp;&nbsp;ui:{" "}
+                    <span className="text-green-400">&quot;React&quot;</span>,
+                    <br />
+                    &nbsp;&nbsp;style:{" "}
+                    <span className="text-green-400">&quot;Tailwind&quot;</span>
+                    ,
+                    <br />
+                    &nbsp;&nbsp;native:{" "}
+                    <span className="text-green-400">true</span>
+                    <br />
+                    {"}"};
+                  </div>
+                )}
                 <div className="flex flex-wrap gap-2">
                   {group.items.map((item) => (
                     <span
