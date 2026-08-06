@@ -40,5 +40,24 @@ export const projects = [
     role: "Designed and built the site end-to-end, including backend email integration via Brevo.",
     liveUrl: "https://www.mycorerise.com/",
   },
+  {
+    slug: "smart-journal",
+    title: "Smart Journal — AI-Powered Journaling",
+    tagline:
+      "Journal app with semantic search powered by vector embeddings and RAG",
+    description:
+      "Built a full-stack journaling app where entries are embedded using Gemini's embedding model and stored in Supabase with pgvector, enabling semantic search that finds past entries by meaning rather than keywords. Each entry also generates an AI-written reflective prompt via the Gemini API. Implements row-level security so all data access is scoped per-user at the database layer.",
+    stack: [
+      "Next.js",
+      "TypeScript",
+      "Supabase",
+      "pgvector",
+      "Gemini API",
+      "Zod",
+    ],
+    status: "Live",
+    role: "Designed and built the full stack solo — schema, RLS policies, API routes, embedding/RAG pipeline, and UI.",
+    liveUrl: "https://smart-journal-bay.vercel.app/",
+  },
   // add more projects here later, e.g. this portfolio itself
 ];
